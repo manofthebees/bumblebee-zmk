@@ -1,0 +1,36 @@
+#include <behaviors/mouse_keys.dtsi>
+#include <dt-bindings/zmk/mouse.h>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+
+/ {
+    behaviors {
+        mouse_mode: mouse_mode {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOUSE_MODE";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <125>;
+            flavor = "tap-preferred";
+            quick-tap-ms = <75>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        alpha {
+            bindings = <
+        &kp Q &kp W &kp E &kp R &kp T                                             &kp Y &kp U &kp I &kp O &kp P
+        &kp A &kp S &kp D &kp F &kp G                                             &kp H &kp J &kp K &kp L &kp SEMI
+        &kp Z &kp X &kp C &kp V &kp B                                             &kp N &kp M &kp COMMA &kp DOT &kp FSLH
+              &kp TAB &kp GRAVE                                                         &kp MINUS &kp SQT 
+                        &kp LSHIFT &kp SPACE &kp LCTRL                      &kp ESCAPE &kp ENTER &kp BSPC 
+                                   &mo 1     &kp ESCAPE                     &kp DEL &mo 2
+            >;
+        };
+    };
+};
