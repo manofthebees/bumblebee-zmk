@@ -44,7 +44,7 @@
 
         ctrl_tab {
             bindings = <&kp LC(TAB)>;
-            key-positions = <10 11 12>;
+            key-positions = <10 36>;
             layers = <0>;
         };
 
