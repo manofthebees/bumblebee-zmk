@@ -24,14 +24,16 @@
     combos {
         compatible = "zmk,combos";
 
-        tab_moment {
-            bindings = <&kp TAB>;
-            key-positions = <10 11>;
-        };
-
         dash_moment {
             bindings = <&kp MINUS>;
             key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        tab_moment {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+            layers = <0>;
         };
     };
 
