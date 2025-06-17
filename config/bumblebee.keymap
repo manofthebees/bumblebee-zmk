@@ -13,12 +13,6 @@
     delay-ms = <0>;
 };
 
-&mt {
-    tapping-term-ms = <90>;
-    quick-tap-ms = <65>;
-    flavor = "tap-preferred";
-};
-
 / {
     behaviors {
         mouse_mode: mouse_mode {
