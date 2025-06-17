@@ -7,6 +7,18 @@
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1500  // default is 600
 
+&mmv {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <1>;
+    delay-ms = <0>;
+};
+
+&mt {
+    tapping-term-ms = <90>;
+    quick-tap-ms = <65>;
+    flavor = "tap-preferred";
+};
+
 / {
     behaviors {
         mouse_mode: mouse_mode {
