@@ -47,12 +47,6 @@
             key-positions = <10 36>;
             layers = <0>;
         };
-
-        symbols {
-            bindings = <&mo 6>;
-            key-positions = <20 34>;
-            layers = <0>;
-        };
     };
 
     keymap {
@@ -65,7 +59,7 @@
 &kp Z  &kp X    &kp C       &kp V      &kp B                 &kp N              &kp M      &kp COMMA  &kp DOT        &kp FSLH
        &kp TAB  &kp GRAVE                                                                  &kp MINUS  &kp SEMICOLON
                 &kp LSHIFT  &kp SPACE  &kp LCTRL             &mouse_mode 4 ESC  &kp ENTER  &kp BSPC
-                            &mo 1      &mouse_mode 3 DELETE  &tog 4             &mo 2
+                            &mo 1      &mouse_mode 6 DELETE  &tog 4             &mo 2
             >;
         };
 
