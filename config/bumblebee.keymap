@@ -42,10 +42,14 @@
             layers = <0>;
         };
 
-        ctrl_tab {
-            bindings = <&kp LC(TAB)>;
-            key-positions = <10 36>;
-            layers = <0>;
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <28 19>;
+        };
+
+        tilde_moment {
+            bindings = <&kp GRAVE>;
+            key-positions = <10 21>;
         };
     };
 
