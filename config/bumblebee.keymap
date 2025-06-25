@@ -45,11 +45,13 @@
         semicolon {
             bindings = <&kp SEMICOLON>;
             key-positions = <28 19>;
+            layers = <0>;
         };
 
         tilde_moment {
             bindings = <&kp GRAVE>;
             key-positions = <10 21>;
+            layers = <0>;
         };
     };
 
