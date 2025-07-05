@@ -38,20 +38,25 @@
 
         tab_moment {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
+            key-positions = <10 11 12>;
             layers = <0>;
         };
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <28 19>;
+            key-positions = <28 29>;
             layers = <0>;
         };
 
         tilde_moment {
             bindings = <&kp GRAVE>;
-            key-positions = <10 21>;
+            key-positions = <21 20>;
             layers = <0>;
+        };
+
+        ctrl_tab {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <10 20>;
         };
     };
 
