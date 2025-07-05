@@ -57,6 +57,13 @@
         ctrl_tab {
             bindings = <&kp LC(TAB)>;
             key-positions = <10 20>;
+            layers = <0>;
+        };
+
+        zero_and_plus {
+            bindings = <&kp EQUAL>;
+            key-positions = <8 9>;
+            layers = <1>;
         };
     };
 
