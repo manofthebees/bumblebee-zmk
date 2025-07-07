@@ -38,7 +38,7 @@
 
         tab_moment {
             bindings = <&kp TAB>;
-            key-positions = <10 11 12 13>;
+            key-positions = <10 11>;
             layers = <0>;
         };
 
