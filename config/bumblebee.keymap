@@ -65,6 +65,16 @@
             key-positions = <8 9>;
             layers = <1>;
         };
+
+        number_moment {
+            bindings = <&mo 1>;
+            key-positions = <34 35>;
+        };
+
+        symbol_moment {
+            bindings = <&mo 6>;
+            key-positions = <35 36>;
+        };
     };
 
     keymap {
