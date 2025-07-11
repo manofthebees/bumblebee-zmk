@@ -85,11 +85,13 @@
         num_moment {
             bindings = <&mo 1>;
             key-positions = <34 35>;
+            layers = <0>;
         };
 
         symbols_moment {
             bindings = <&mo 2>;
             key-positions = <35 36>;
+            layers = <0>;
         };
     };
 
