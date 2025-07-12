@@ -55,7 +55,7 @@
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <28 29>;
+            key-positions = <29 19>;
             layers = <0>;
         };
 
